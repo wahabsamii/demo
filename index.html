@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search...." aria-label="Search">
+                    <button class="btn btn-danger" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">Contact with us</button>
+            <div class="dropdown-menu bg-dark text-light">
+                <li><a href="" class="dropdown-item text-light bg-primary">Phone</a></li>
+                <li><a href="" class="dropdown-item text-light">WhatsApp</a></li>
+                <li><a href="" class="dropdown-item text-light">Facebook</a></li>
+                <li><a href="" class="dropdown-item text-light">Instagram</a></li>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="container">
+        <li class="nav-item dropdown">
+            <button class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </li>
+    </div>
+    <div class="container" style="border:1px solid black;">
+        <!-- <img src="by-desfult.jpeg" alt="" class="bg-img"> -->
+        <h1 class="text-light bg-dark d-block">Hello, world!</h1>
+        <h2>Hello</h2>
+        <button class="btn btn-primary">READ MORE</button>
+        <button class="btn btn-outline-success btn-sm">READ MORE</button>
+        <button class="btn btn-success btn-lg">READ MORE</button>
+        <button class="btn btn-outline-danger">READ MORE</button>
+        <button class="btn btn-danger">READ MORE</button>
+    </div>
+
+    <div class="container d-flex g-col-4">
+        <div class="left p-2">Left</div>
+        <div class="right p-2 m-4">right</div>
+    </div>
+    <div class="container">
+        <div class="container border border-primary border-3 px-2 py-2 my-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, maxime.
+        </div>
+        <div class="container border border-primary-subtle p-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, maxime.
+        </div>
+        <div class="container border border-secondary">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, maxime.
+        </div>
+        <div class="container border border-secondary-subtle">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, maxime.
+        </div>
+        <div class="container border border-success">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, maxime.
+        </div>
+        <div class="container border border-success-subtle">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, maxime.
+        </div>
+        <div class="container border border-danger">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, maxime.
+        </div>
+        <div class="container border border-danger-subtle">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, maxime.
+        </div>
+        <div class="container border border-warning">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, maxime.
+        </div>
+        <div class="container border border-warning-subtle">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, maxime.
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-4 border">One</div>
+            <div class="col border border-primary">Two</div>
+            <div class="col border border-primary">Three</div>
+            <div class="col border border-primary">Four</div>
+        </div>
+    </div>
+    <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cumque qui minus odio hic, similique, perspiciatis consectetur facere neque dicta repudiandae amet molestiae aut quaerat, numquam animi! Sit, repellat possimus!</p>
+
+
+    <section class="d-flex ">
+        <div class="px-2 px-4 py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, iure?</div>
+        <div class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, iure?</div>
+        <div class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, iure?</div>
+    </section>
+
+    <section class="d-flex justify-content-between my-4">
+        <div class="px-2 ">Lorem ipsum </div>
+        <div class="px-2">Lorem ipsum dolor sit </div>
+        <div class="px-2">Lorem ipsum dolor sit </div>
+    </section>
+
+    <section class="d-flex justify-content-end my-4">
+        <div class="px-2 ">Lorem ipsum </div>
+        <div class="px-2">Lorem ipsum dolor sit </div>
+        <div class="px-2">Lorem ipsum dolor sit </div>
+    </section>
+
+    <section class="d-flex justify-content-evenly my-4">
+        <div class="px-2 ">Lorem ipsum </div>
+        <div class="px-2">Lorem ipsum dolor sit </div>
+        <div class="px-2">Lorem ipsum dolor sit </div>
+    </section>
+
+    <div class="bg-dark opacity-100"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, corporis.</div>
+    <div class="bg-dark opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, debitis.</div>
+    <div class="bg-dark opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptas!</div>
+    <div class="bg-dark opacity-25">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, libero.</div>
+
+    <section class="d-grid">
+        <div class="row">
+            <div class="col">lorem10</div>
+            <div class="col">lorem10
+
+            </div>
+            <div class="col">lorem10
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section>
+        <div class="border border-black mb-4 border-4 mx-4 my-4 rounded">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, ad?</div>
+        <div class="border border-black mb-4 border-4 mx-4 my-4 rounded-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, ad?</div>
+        <div class="border border-black mb-4 border-4 mx-4 my-4 rounded-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, ad?</div>
+        <div class="border border-black mb-4 border-4 mx-4 my-4 rounded-top-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, ad?</div>
+        <img src="by-desfult.jpeg" alt="" class="border border-black rounded-circle">
+
+        <p class="bg-dark text-light d-inline">Lorem ipsum dolor sit amet.</p>
+        <span class="bg-primary text-light d-block">Lorem ipsum dolor sit amet.</span>
+
+        <div class="bg-dark" style="width:300px; height:300px">
+            <div class="bg-primary w-25 my-4">25%</div>
+            <div class="bg-primary w-50 my-4">50%</div>
+            <div class="bg-primary w-75 my-4">75%</div>
+            <div class="bg-primary w-25 my-4">100%</div>
+        </div>
+
+        <div style="height: 400px; background-color: aqua; display: flex;">
+            <div class="h-25 bg-dark my-4 mx-4">lorem</div>
+            <div class="h-50 bg-dark my-4 mx-4">lorem</div>
+            <div class="h-75 bg-dark my-4 mx-4">lorem</div>
+            <div class="h-100 bg-dark my-4 mx-4">lorem</div>
+        </div>
+
+
+
+        <div class="position-relative mt-4" style="width:400px; height:400px; background-color: rgb(179, 255, 0);">
+            <div class="d-inline bg-dark text-light p-2 rounded position-absolute bottom-0 start-0">
+                lorem
+            </div>
+        </div>
+
+        <!-- <div class="position-fixed fixed-bottom">
+
+        </div> -->
+        <div class="container shadow  my-4 ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vel.
+        </div>
+        <div class="container shadow-sm  my-4 ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vel.
+        </div>
+        <div class="container shadow-lg  my-4 ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vel.
+        </div>
+        <div class="container shadow-none  my-4  text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vel.
+            <a href="#" class="text-decoration-none text-light bg-danger p-2 rounded">Click Me</a>
+            <a href="#" style="background-color: aqua; color: black; text-decoration: none; padding: 10px 12px; border-radius: 10px;">Click Me 2</a>
+            <span class="text-decoration-underline fs-6">lorem</span>
+            <span class="text-decoration-underline fs-5">lorem</span>
+            <span class="text-decoration-underline fs-4">lorem</span>
+            <span class="text-decoration-underline fs-3">lorem</span>
+            <span class="text-decoration-underline fs-2">lorem</span>
+            <span class="text-decoration-underline fs-1">lorem</span>
+        </div>
+
+        <div class="main overflow-hidden" style="width: 200px;height: 200px;background: #000;color: white;">
+            <h1>Hello</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat suscipit labore consequatur hic! Eveniet maiores saepe odio corrupti officiis harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, recusandae!
+        </div>
+        <section class="p-4 border border-black border-4">
+
+            <div class="container border border-primary border-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quos!
+            </div>
+            <!-- <div class="container-sm border border-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quos!
+            </div>
+            <div class="container-md border border-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quos!
+            </div>
+            <div class="container-lg border border-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quos!
+            </div>
+            <div class="container-xl border border-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quos!
+            </div>
+            <div class="container-xxl border border-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quos!
+            </div> -->
+            <div class="container-fluid border border-danger border-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quos!
+            </div>
+
+            <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+            </div>
+
+            <div class="alert alert-primary alert-dismissible fade show" role="alert" style="width: 500px;">
+                <h3 class="text-center">Hello User</h3>
+                <p class="text-center"> A simple primary alert—check it out!</p>
+                <img src="project-2.jpg" alt="">
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>Hello </strong> You should check in on some of those fields below.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+        </section>
+    </section>
+
+    <section class="container">
+
+        <h1>Heading <span class="badge text-bg-primary" style="font-size: 16px;">Badge 1</span></h1>
+        <h1>Heading <span class="badge text-bg-danger" style="font-size: 12px;">Badge 2</span></h1>
+        <h1>Heading <span class="badge text-bg-success" style="font-size: 12px;">Badge 3</span></h1>
+        <h1>Heading <span class="badge text-bg-dark" style="font-size: 12px;">Badge 4</span></h1>
+        <h1>Heading <span class="badge text-bg-primary" style="font-size: 12px;">Badge 5</span></h1>
+        <span class="badge text-bg-info">214242423</span>
+
+
+        <span class="badge rounded-pill text-bg-primary">Primary</span>
+        <span class="badge rounded-pill text-bg-secondary">Secondary</span>
+        <span class="badge rounded-pill text-bg-success">Success</span>
+        <span class="badge rounded-pill text-bg-danger">Danger</span>
+        <span class="badge rounded-pill text-bg-warning">Warning</span>
+        <span class="badge rounded-pill text-bg-info">Info</span>
+        <span class="badge rounded-pill text-bg-light">Light</span>
+        <span class="badge rounded-pill text-bg-dark">Dark</span>
+        <span class="badge rounded-pill text-bg-primary"> Primary</span>
+
+
+
+
+
+
+
+
+        <button class=" btn btn-primary position-relative " type=" button ">
+        Inbox
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger ">
+          99+
+          <span class="visually-hidden ">unread messages</span>
+        </span>
+      </button>
+
+
+
+    </section>
+
+    <section>
+        <div class="container my-4">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="by-desfult.jpeg" class="d-block w-100" alt="...">
+                        <h1>lorem</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel recusandae possimus quidem architecto aspernatur ut nostrum incidunt vero, ipsam nemo.</p>
+                        <button>Click Me</button>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="bg.png" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="project-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+  </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+  </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="bg.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="by-desfult.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="project-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="project-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="">
+        <div class="container d-flex m-auto justify-content-between">
+            <div class="card mx-2" style="width: 18rem;">
+                <img src="bg.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card mx-2" style="width: 18rem;">
+                <img src="by-desfult.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card mx-2" style="width: 18rem;">
+                <img src="bg.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card mx-2" style="width: 18rem;">
+                <img src="bg.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+
+
+            <div class="card mx-2" style="width: 18rem;">
+                <img src="bg.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="progress my-2" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 12%"></div>
+        </div>
+
+        <div class="progress my-2" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 25%"></div>
+        </div>
+
+        <div class="progress my-2" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 50%"></div>
+        </div>
+
+        <div class="progress my-2" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 75%"></div>
+        </div>
+
+        <div class="progress my-2" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 100%"></div>
+        </div>
+
+
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, similique?</div>
+
+        <div class="container mx-2 my-4">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+                            You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item  Lorem ipsum dolor sit amet. #2
+                </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+                            well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit <a href="">overflow.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#adnan" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item # 4 adnan
+                </button>
+                    </h2>
+                    <div id="adnan" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+
+                            This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+                            You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#five-accordian-body" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #5 
+                </button>
+                    </h2>
+                    <div id="five-accordian-body" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colla" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3 test
+                </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#siab" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Service</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#five-tab" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Five tab</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">Home Page Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ducimus repellendus. Vel voluptatibus dignissimos in officiis nostrum. Laborum, debitis quasi.</div>
+                <div class="tab-pane fade" id="siab" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Second Page Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, officiis.</div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                    <h1>Contact Us</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, corporis. Voluptates sequi voluptate, id neque minus odit maiores dolorum alias?</p>
+                </div>
+                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">Disabled Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odio!</div>
+                <div class="tab-pane fade" id="five-tab" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">Disabled Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odio!</div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <h1>home page</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam eius a architecto odit animi perferendis distinctio magni eaque excepturi.</p>i <img src="by-desfult.jpeg" alt=""></div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <h1>profile</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, voluptas.</p> <img src="project-2.jpg" alt=""></div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i> info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            &copy; 2022 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <div class="container d-flex">
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+            Popover on top
+          </button>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+            Popover on right
+          </button>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+            Popover on bottom
+          </button>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+            Popover on left
+          </button>
+
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-info" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-light" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-dark" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+
+    </div>
+    </div>
+    <!-- 
+
+    <div class="fixed-top bg-dark text-light ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime facere, possimus autem ullam voluptas obcaecati dolorem ipsa excepturi voluptates consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum ratione ad delectus facere
+        in soluta, eum maiores dolores quaerat at recusandae veniam dolorum magnam pariatur perspiciatis suscipit iusto illum cupiditate.</div> -->
+
+
+
+
+
+
+
+
+    <script src="onm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz " crossorigin="anonymous "></script>
+</body>
+
+</html>
